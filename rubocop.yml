@@ -1,0 +1,88 @@
+---
+inherit_mode:
+  merge:
+  - Exclude
+  - Include
+
+AllCops:
+  EnabledByDefault: true
+  SuggestExtensions: false
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - vendor/bundle/**/*
+    - tmp/**/*
+    - Gemfile.lock
+
+Layout/EmptyLines:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: false
+
+Layout/ClassStructure:
+  Enabled: false
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: false
+Layout/HashAlignment:
+  Enabled: false
+Layout/RedundantLineBreak:
+  Enabled: false
+Layout/MultilineAssignmentLayout:
+  Enabled: false
+
+Lint/ConstantResolution:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - config/routes.rb
+    - db/migrate/*
+    - test/**/*
+    - config/**/*
+Metrics/ClassLength:
+  Max: 200
+Metrics/CyclomaticComplexity:
+  Max: 12
+Metrics/MethodLength:
+  Max: 30
+Metrics/PerceivedComplexity:
+  Max: 12
+
+Style/ArrayCoercion:
+  Enabled: false
+Style/Alias:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/ClassMethodsDefinitions:
+  EnforcedStyle: self_class
+Style/ConstantVisibility:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
+Style/InlineComment:
+  Enabled: false
+Style/IpAddresses:
+  Exclude:
+    - test/**/*
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+Style/ModuleFunction:
+  EnforcedStyle: extend_self
+Style/RedundantArgument:
+  Enabled: false
+Style/StringHashKeys:
+  Enabled: false
