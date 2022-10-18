@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-espago (1.0.0)
+    rubocop-espago (1.0.1)
       rubocop
 
 GEM
@@ -33,10 +33,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  ruby
 
 DEPENDENCIES
   rake (~> 13.0)
   rubocop-espago!
 
 BUNDLED WITH
-   2.3.22
+   2.3.14
