@@ -13,8 +13,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 And then to `.rubocop.yml`:
 ```yaml
 inherit_gem:
-  rubocop-espago:
-    - config/default.yml
+  rubocop-espago: rubocop.yml
 ```
 
 ## Development
