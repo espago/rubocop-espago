@@ -90,3 +90,13 @@ Style/RedundantArgument:
   Enabled: false
 Style/StringHashKeys:
   Enabled: false
+Style/RedundantConstantBase:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Style/MissingElse:
+  Enabled: false
+Style/RequireOrder:
+  Enabled: false
+Lint/NumberConversion:
+  Enabled: false
