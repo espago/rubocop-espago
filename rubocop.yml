@@ -100,3 +100,5 @@ Style/RequireOrder:
   Enabled: false
 Lint/NumberConversion:
   Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
