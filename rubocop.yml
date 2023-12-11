@@ -102,3 +102,21 @@ Lint/NumberConversion:
   Enabled: false
 Style/Lambda:
   EnforcedStyle: literal
+Style/AsciiComments:
+  Enabled: false
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+Style/TrailingCommaInArguments:
+  Enabled: false
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/DateTime:
+  Enabled: false
