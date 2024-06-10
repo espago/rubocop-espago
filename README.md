@@ -10,10 +10,18 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install rubocop-espago
 
-And then to `.rubocop.yml`:
+Add this to `.rubocop.yml` to include cops for Ruby and Rails:
+
 ```yaml
 inherit_gem:
   rubocop-espago: rubocop.yml
+```
+
+In order to include cops for sorbet add this to `.rubocop.yml`
+
+```yaml
+inherit_gem:
+  rubocop-espago: sorbet.yml
 ```
 
 ## Development

@@ -2,7 +2,7 @@
 
 ::Gem::Specification.new do |s|
   s.name        = 'rubocop-espago'
-  s.version     = '1.0.4'
+  s.version     = '1.1.0'
   s.summary     = "Espago's rubocop config"
   s.description = <<~DESC
     Gem containing the `.rubocop.yml` config used
@@ -22,7 +22,7 @@
     'allowed_push_host' => 'https://rubygems.org'
   }
 
-  s.required_ruby_version = '>= 2.6.0'
+  s.required_ruby_version = '>= 3.0.0'
 
   s.add_dependency 'rubocop'
 end

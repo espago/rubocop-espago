@@ -1,0 +1,20 @@
+---
+inherit_mode:
+  merge:
+  - Exclude
+  - Include
+
+inherit_from: ./rubocop.yml
+require: rubocop-sorbet
+
+Sorbet/StrictSigil:
+  Enabled: false
+
+Sorbet/StrongSigil:
+  Enabled: false
+
+Sorbet/TrueSigil:
+  Enabled: false
+
+Sorbet/ForbidRBIOutsideOfAllowedPaths:
+  Enabled: false

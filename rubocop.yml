@@ -31,8 +31,6 @@ Layout/ExtraSpacing:
   Enabled: false
 Layout/FirstMethodArgumentLineBreak:
   Enabled: false
-Layout/HashAlignment:
-  Enabled: false
 Layout/RedundantLineBreak:
   Enabled: false
 Layout/MultilineAssignmentLayout:
@@ -56,10 +54,16 @@ Metrics/ClassLength:
     - db/migrate/*
     - test/**/*
     - config/**/*
+Metrics/ModuleLength:
+  Max: 400
+  Exclude:
+    - db/migrate/*
+    - test/**/*
+    - config/**/*
 Metrics/CyclomaticComplexity:
   Max: 12
 Metrics/MethodLength:
-  Max: 30
+  Max: 40
 Metrics/PerceivedComplexity:
   Max: 12
 
@@ -105,11 +109,11 @@ Style/Lambda:
 Style/AsciiComments:
   Enabled: false
 Style/TrailingCommaInHashLiteral:
-  Enabled: false
+  EnforcedStyleForMultiline: consistent_comma
 Style/TrailingCommaInArrayLiteral:
-  Enabled: false
+  EnforcedStyleForMultiline: consistent_comma
 Style/TrailingCommaInArguments:
-  Enabled: false
+  EnforcedStyleForMultiline: consistent_comma
 Lint/AmbiguousOperatorPrecedence:
   Enabled: false
 Style/ClassVars:
@@ -119,4 +123,36 @@ Layout/SpaceAroundMethodCallOperator:
 Style/LambdaCall:
   Enabled: false
 Style/DateTime:
+  Enabled: false
+Style/EndlessMethod:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Style/ArgumentsForwarding:
+  Enabled: false
+Style/RedundantBegin:
+  Enabled: false
+Style/Semicolon:
+  AllowAsExpressionSeparator: true
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Style/CommentedKeyword:
+  Enabled: false
+Bundler/DuplicatedGem:
+  Enabled: false
+Style/DocumentationMethod:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: false
+Layout/FirstArrayElementLineBreak:
+  Enabled: false
+Naming/MethodParameterName:
   Enabled: false
