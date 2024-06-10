@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-espago (1.1.0)
+    rubocop-espago (1.1.1)
       rubocop
 
 GEM
