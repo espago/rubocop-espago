@@ -16,5 +16,11 @@ Sorbet/StrongSigil:
 Sorbet/TrueSigil:
   Enabled: false
 
+Sorbet/IgnoreSigil:
+  Enabled: false
+
+Sorbet/FalseSigil:
+  Enabled: false
+
 Sorbet/ForbidRBIOutsideOfAllowedPaths:
   Enabled: false
