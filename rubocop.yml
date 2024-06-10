@@ -13,6 +13,8 @@ AllCops:
     - vendor/bundle/**/*
     - tmp/**/*
     - Gemfile.lock
+    - "**/*.rbi"
+    - sorbet/**/*
 
 Layout/EmptyLines:
   Enabled: false
