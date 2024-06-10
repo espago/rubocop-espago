@@ -2,7 +2,7 @@
 
 ::Gem::Specification.new do |s|
   s.name        = 'rubocop-espago'
-  s.version     = '1.1.3'
+  s.version     = '1.1.4'
   s.summary     = "Espago's rubocop config"
   s.description = <<~DESC
     Gem containing the `.rubocop.yml` config used
