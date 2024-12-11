@@ -27,6 +27,8 @@ Sorbet/ForbidRBIOutsideOfAllowedPaths:
 
 Sorbet/EnforceSignatures:
   AutoCorrect: false
+  Enabled: false
 
 Sorbet/HasSigil:
   AutoCorrect: false
+  Enabled: false

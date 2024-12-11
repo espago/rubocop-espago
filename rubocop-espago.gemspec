@@ -2,7 +2,7 @@
 
 ::Gem::Specification.new do |s|
   s.name        = 'rubocop-espago'
-  s.version     = '1.1.5'
+  s.version     = '1.1.6'
   s.summary     = "Espago's rubocop config"
   s.description = <<~DESC
     Gem containing the `.rubocop.yml` config used
@@ -18,8 +18,9 @@
   s.files = ['rubocop.yml', 'sorbet.yml', 'LICENSE']
 
   s.metadata = {
-    'source_code_uri' => s.homepage,
-    'allowed_push_host' => 'https://rubygems.org',
+    'source_code_uri'       => s.homepage,
+    'allowed_push_host'     => 'https://rubygems.org',
+    'rubygems_mfa_required' => 'true',
   }
 
   s.required_ruby_version = '>= 3.0.0'
