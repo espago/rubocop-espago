@@ -5,7 +5,9 @@ inherit_mode:
   - Include
 
 inherit_from: ./rubocop.yml
-require: rubocop-sorbet
+
+plugins:
+- rubocop-sorbet
 
 Sorbet/StrictSigil:
   Enabled: false
