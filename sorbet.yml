@@ -32,12 +32,14 @@ Sorbet/EnforceSignatures:
   Enabled: false
 
 Sorbet/HasSigil:
-  AutoCorrect: false
   Enabled: false
 
 Layout/LeadingCommentSpace:
-  AllowRBSInlineAnnotation: true
+  Enabled: false
 
 Layout/LineLength:
   Max: 120
   AllowedPatterns: ['\A\s*#:']
+
+Sorbet/ForbidSig:
+  Enabled: false

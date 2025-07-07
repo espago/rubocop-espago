@@ -43,13 +43,10 @@ Lint/ConstantResolution:
 
 Metrics/AbcSize:
   Enabled: false
+
 Metrics/BlockLength:
-  Enabled: true
-  Exclude:
-    - config/routes.rb
-    - db/migrate/*
-    - test/**/*
-    - config/**/*
+  Enabled: false
+
 Metrics/ClassLength:
   Max: 200
   Exclude:
@@ -167,3 +164,10 @@ Lint/EmptyWhen:
   Enabled: false
 Style/ArrayFirstLast:
   Enabled: false
+Style/FetchEnvVar:
+  Enabled: false
+Style/ImplicitRuntimeError:
+  Enabled: false
+Lint/UselessConstantScoping:
+  Enabled: false
+
