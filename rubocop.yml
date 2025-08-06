@@ -1,8 +1,8 @@
 ---
 inherit_mode:
   merge:
-  - Exclude
-  - Include
+    - Exclude
+    - Include
 
 AllCops:
   EnabledByDefault: true
@@ -155,6 +155,8 @@ Layout/FirstArrayElementLineBreak:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
+Naming/PredicateName:
+  Enabled: false
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
@@ -170,4 +172,3 @@ Style/ImplicitRuntimeError:
   Enabled: false
 Lint/UselessConstantScoping:
   Enabled: false
-
