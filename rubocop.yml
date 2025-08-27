@@ -155,7 +155,7 @@ Layout/FirstArrayElementLineBreak:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
-Naming/PredicateName:
+Naming/PredicatePrefix:
   Enabled: false
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
