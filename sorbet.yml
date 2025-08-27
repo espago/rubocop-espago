@@ -43,3 +43,6 @@ Layout/LineLength:
 
 Sorbet/ForbidSig:
   Enabled: false
+
+Sorbet/ForbidTMust:
+  Enabled: false

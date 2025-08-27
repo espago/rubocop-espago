@@ -172,3 +172,7 @@ Style/ImplicitRuntimeError:
   Enabled: false
 Lint/UselessConstantScoping:
   Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
+Style/ZeroLengthPredicate:
+  Enabled: false

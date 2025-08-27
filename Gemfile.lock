@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-espago (1.1.10)
+    rubocop-espago (1.1.11)
       rubocop
 
 GEM
@@ -20,7 +20,7 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.11.0)
-    rubocop (1.79.2)
+    rubocop (1.80.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
