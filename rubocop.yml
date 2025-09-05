@@ -157,6 +157,8 @@ Naming/MethodParameterName:
   Enabled: false
 Naming/PredicatePrefix:
   Enabled: false
+Naming/PredicateMethod:
+  Enabled: false
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
