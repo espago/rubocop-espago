@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-espago (1.1.13)
+    rubocop-espago (1.2.0)
       rubocop
 
 GEM
@@ -15,7 +15,7 @@ GEM
     parser (3.3.9.0)
       ast (~> 2.4.1)
       racc
-    prism (1.4.0)
+    prism (1.5.1)
     racc (1.8.1)
     rainbow (3.1.1)
     rake (13.2.1)
