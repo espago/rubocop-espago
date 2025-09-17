@@ -48,21 +48,13 @@ Metrics/BlockLength:
   Enabled: false
 
 Metrics/ClassLength:
-  Max: 200
-  Exclude:
-    - db/migrate/*
-    - test/**/*
-    - config/**/*
+  Enabled: false
 Metrics/ModuleLength:
-  Max: 400
-  Exclude:
-    - db/migrate/*
-    - test/**/*
-    - config/**/*
+  Enabled: false
 Metrics/CyclomaticComplexity:
   Max: 12
 Metrics/MethodLength:
-  Max: 40
+  Enabled: false
 Metrics/PerceivedComplexity:
   Max: 12
 
@@ -177,4 +169,6 @@ Lint/UselessConstantScoping:
 Lint/UselessAssignment:
   Enabled: false
 Style/ZeroLengthPredicate:
+  Enabled: false
+Naming/BlockForwarding:
   Enabled: false

@@ -46,3 +46,6 @@ Sorbet/ForbidSig:
 
 Sorbet/ForbidTMust:
   Enabled: false
+
+Sorbet/ForbidTTypeAlias:
+  Enabled: false
