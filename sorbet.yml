@@ -49,3 +49,9 @@ Sorbet/ForbidTMust:
 
 Sorbet/ForbidTTypeAlias:
   Enabled: false
+
+Sorbet/CallbackConditionalsBinding:
+  Enabled: false
+
+Sorbet/ForbidMixesInClassMethods:
+  Enabled: false

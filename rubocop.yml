@@ -172,3 +172,21 @@ Style/ZeroLengthPredicate:
   Enabled: false
 Naming/BlockForwarding:
   Enabled: false
+Style/RaiseArgs:
+  Enabled: false
+Style/MultipleComparison:
+  Enabled: false
+Style/YodaExpression:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/InvertibleUnlessCondition:
+  Enabled: false
+Lint/SafeNavigationConsistency:
+  Enabled: false
+Style/SafeNavigationChainLength:
+  Enabled: false
+Lint/SelfAssignment:
+  Enabled: false
+Style/BisectedAttrAccessor:
+  Enabled: false
